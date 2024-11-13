@@ -16,3 +16,241 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.container-nav {
+  align-content: center;
+  width: 90vh;
+  height: 90vh;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.nav {
+  padding-left: 30%;
+}
+
+.container-time {
+  width: 90vh;
+  height: 90vh;
+  padding-top: 36px;
+  padding-left: 156px;
+
+  border-radius: 8px;
+
+  margin: 0 auto;
+}
+.main-title {
+  text-align: left;
+  color: rgb(156, 29, 181);
+}
+.container-time input {
+  border: none;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  border: 1px solid #808080;
+}
+.container-time input:hover {
+  border: 1px solid #000;
+}
+.container-time input:focus {
+  outline: 1px solid rgb(156, 29, 181);
+}
+.container-time input:disabled {
+  border-color: #808080;
+  color: #808080;
+}
+.back-btn,
+.nav-btn {
+  text-decoration: none;
+  background-color: rgb(156, 29, 181);
+  padding: 10px 15px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100px;
+  display: inline-block;
+  margin-top: 36px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.back-btn:hover,
+.nav-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(156, 29, 181);
+}
+.container-time button {
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: rgb(156, 29, 181);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.container-time button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(156, 29, 181);
+}
+.container-time button:disabled {
+  background-color: #808080;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0em;
+  width: calc((100% - 24px * 3) / 4);
+  box-sizing: border-box;
+
+  height: 72px;
+}
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 346px;
+  gap: 24px;
+  margin-top: 32px;
+}
+.value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: rgb(156, 29, 181);
+  text-align: center;
+}
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(156, 29, 181);
+  text-align: center;
+}
+.container-snackbar {
+  width: 90vh;
+  height: 90vh;
+  padding-top: 36px;
+  padding-left: 156px;
+
+  border-radius: 8px;
+  border-color: rgb(156, 29, 181);
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: rgb(156, 29, 181);
+  margin-bottom: 8px;
+}
+.input-delay {
+  outline: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  margin-bottom: 16px;
+}
+.input-delay:hover {
+  outline: 1px solid #000;
+}
+.input-delay:focus {
+  outline: 1px solid rgb(156, 29, 181);
+}
+
+.Delay {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: rgb(156, 29, 181);
+}
+
+.legend-state {
+  margin-left: 24px;
+}
+
+.fieldset-state {
+  border-radius: 4px;
+  border: 1px solid #f3f0f1;
+  width: 360px;
+  height: 62px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 24px;
+}
+.fieldset-state:hover {
+  border: 2px solid rgb(156, 29, 181);
+}
+
+.input-fulfilled,
+.input-rejected {
+  border: 1px solid #6a5f5f;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+.input-fulfilled:focus,
+.input-rejected:focus {
+  width: 20px;
+  height: 20px;
+  background: rgb(156, 29, 181);
+}
+
+.input-fulfilled:hover,
+.input-rejected:hover {
+  border: 1px solid #000;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+.label-state {
+  display: flex;
+  align-items: center;
+}
+
+.Fulfilled,
+.Rejected {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+.btn-create {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  background-color: rgb(156, 29, 181);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-create:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(156, 29, 181);
+}
